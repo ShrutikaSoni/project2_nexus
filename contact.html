@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="subscribe">
+        <div class="container">
+            <h3>Subscribe to Our Newsletter</h3><br>
+            <p>Stay up-to-date with us.</p>
+            <form action="subscribe.php" method="post">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <section id="information">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Leave your details below and we'll get back to you.</p>
+            <form action="submit_info.php" method="post">
+                <label for="fullname"><b>Name:</b></label>
+                <input type="text" id="fullname" name="fullname" required>
+                <label for="phone"><b>Mobile Number:</b></label>
+                <input type="tel" id="phone" name="phone" required>
+                <button  type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
